@@ -30,16 +30,3 @@ for(let i=0;i<touristSpots.length;i++){
 touristSpots[i]=obj[touristSpots[i]];
 }
 console.log(touristSpots);
-}
-obj[str]=str;
-return str;
-}
-for(let i=0;i<touristSpots.length;i++){
-touristSpots[i]=check(touristSpots[i]);
-// console.log(touristSpots[i]);
-}
-touristSpots.sort();
-for(let i=0;i<touristSpots.length;i++){
-touristSpots[i]=obj[touristSpots[i]];
-}
-console.log(touristSpots);
